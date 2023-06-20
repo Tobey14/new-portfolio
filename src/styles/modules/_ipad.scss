@@ -1,0 +1,134 @@
+//ipad styles
+
+//navbar
+
+@media screen and (max-width: 1000px) {
+    .navbar {
+        padding: 1rem;
+
+        .bars {
+            display: block;
+        }
+
+        nav {
+            display: none;
+        }
+
+    }
+
+
+    footer {
+        padding: 2rem;
+
+
+        .content {
+
+            .title {
+                font-size: 2.0rem;
+            }
+
+            .desc {
+                font-size: 1.5rem;
+            }
+
+            .socials {
+
+                ul {
+                    flex-wrap: wrap;
+
+                    li {
+                        img {
+                            width: 3rem;
+                            margin-right: 1rem;
+                        }
+                    }
+
+                }
+            }
+
+            .copyright {
+                font-size: 15px;
+                margin-top: 70px;
+            }
+        }
+    }
+
+    //layout styles
+    .container {        
+
+
+        //home page styles
+        .home {
+            width: inherit;
+
+            .top-section {
+                padding: 2rem 6rem;
+
+                .title {
+                    font-size: 3.4rem;
+                }
+
+                .desc {
+                    width: 100%;
+                    font-size: 2rem;
+                }
+            }
+
+            .projects {
+                padding: 2rem;
+
+                .project{
+                    margin:5rem 0;
+                    display: block;
+                
+                    .title{
+                        font-size: 1.6rem;
+                    }
+                
+                    .image{
+                        width:60%;
+                        margin: auto;
+                    }
+                
+                    .content{
+                        width: 100%;
+                    }
+                
+                }
+
+
+                .view-all {
+                    float: right;
+
+                    a{
+                        margin-top: -70px;
+                    }
+                }
+            }
+        }
+
+        //about page styles
+        .about {
+            width: inherit;
+
+            &-content {
+                display: block;
+                padding: 2rem;
+
+                .image {
+                    width: 80%;
+                    margin: auto;
+
+                    img {
+                        width: 100%;
+                        height:200px;
+                    }
+                }
+
+                .content {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

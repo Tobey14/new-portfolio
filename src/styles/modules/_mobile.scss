@@ -1,0 +1,127 @@
+//mobile styles
+@media screen and (max-width: 700px) {
+    footer {
+        padding: 2rem 1rem;
+        
+        .content {
+
+            .title {
+                font-size: 1.8rem;
+            }
+
+            .desc {
+                font-size: 1rem;
+            }
+
+            .socials {
+                ul {
+                    flex-wrap: wrap;
+                    li {
+                        img {
+                            width: 2rem;
+                            margin-right: 1rem;
+                        }
+                    }
+
+                }
+            }
+
+            .copyright {
+                font-size: 13px;
+                margin-top: 70px;
+            }
+        }
+    }
+
+    //layout styles
+    .container {        
+        //home page styles
+        .home {
+            width: inherit;
+
+            .top-section {
+                padding: 1rem;
+
+                .title {
+                    font-size: 1.8rem;
+                }
+
+                .desc {
+                    font-size: 1rem;
+                }
+            }
+
+            .projects {
+                padding: 1rem;
+
+                .project{
+                    margin:5rem 0;
+                    display: block;
+                
+                    .title{
+                        font-size: 1.2rem;
+                    }
+                
+                    .image{
+                        width:90%;
+                        margin: auto;
+                    }
+                
+                    .content{
+                        width: 100%;
+
+                        .desc{
+                            font-size: 1rem;;
+                        }
+                    }
+
+                    a{
+                        height: fit-content;
+                        padding: 0.1rem;
+                    }
+                
+                }
+
+
+                .view-all {
+                    float: right;
+
+                    a{
+                        margin-top: -50px;
+                        height: fit-content;
+                        padding: 0.1rem;
+                    }
+                }
+
+                
+                .categories{
+                    .category{
+                        font-size: 0.5em;
+                    }
+                }
+            }
+        }
+
+        //about page styles
+        .about {
+            width: inherit;
+
+            &-content {
+                display: block;
+                padding: 1rem;
+
+                .content {
+                    width: 100%;
+
+                    .title{
+                        font-size: 2rem;
+                    }
+
+                    .desc{
+                        font-size: 1rem;;
+                    }
+                }
+            }
+        }
+    }
+}

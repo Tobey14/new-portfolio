@@ -1,0 +1,275 @@
+@import './modules/config';
+
+//layout styles
+.container {
+    position: relative;
+    height: 100%;
+    min-height: 100vh;
+    animation: 0.25s ease 0s 1 normal none running jBcSpD;
+    background: $nav_bg;
+
+
+    //home page styles
+    .home{
+        width: inherit;
+
+        .top-section{
+            background: $nav_bg;
+            height:fit-content;
+            width: inherit;
+            padding: 6rem 8rem;
+
+            .title{
+                color: $primary-color;
+                z-index: 1;
+                position: relative;
+
+            }
+
+            .desc{
+                width: 60%;
+                z-index: 1;
+                position: relative;
+            }
+        }
+
+        .projects{
+            background-color: $light-color;
+            padding: 8rem;
+            height: fit-content;
+
+            .title{
+                font-size: 2rem;
+                font-weight: 700;
+                margin: 0;
+                width: 60%;
+            }
+
+            .view-all{
+                float: right;
+            }
+
+            .categories{
+                width: fit-content;
+
+                .category{
+                    background: $nav_bg;
+                    font-size: 1em;
+                    font-weight: 500;
+                    color: rgb(79, 79, 79);
+                    line-height: 140%;
+                    margin: 1px 3px 2px;
+                    justify-content: center;
+                    width: fit-content;
+                    padding: 0.2rem 0.5rem;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+
+    //about page styles
+    .about{
+        width:inherit;
+
+        &-content{
+            background: $light-color;
+            height:fit-content;
+            width: inherit;
+            padding: 6rem 8rem;
+            align-items: start;
+
+            .image{
+                width: 40%;
+                margin:2rem 0;
+
+                img{
+                    width:85%;
+                }
+            }
+
+            .content{
+                width:60%;
+            }
+        }
+    }
+}
+
+//home navbar styles
+.navbar {
+    background: $nav_bg;
+    height: 40px;
+    width: -webkit-fill-available;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+
+
+    &>a:first-child {
+        font-size: 40px;
+        // width: 50px;
+    }
+
+    .bars {
+        display: none;
+        color: $dark-color;
+        cursor: pointer;
+        transition: color 0.25s ease 0s;
+        transform: translate3d(0px, 0px, 0px);
+    }
+
+    nav {
+
+        ul {
+            display: flex;
+            list-style: none;
+
+            a {
+                text-decoration: none;
+            }
+
+            a.active {
+                color: $primary-color;
+            }
+
+            li {
+                margin-left: 2rem;
+                color: $dark-color;
+                font-size: 1.4em;
+                font-weight: 500;
+                cursor: pointer;
+                transition: color 0.25s ease 0s;
+            }
+
+        }
+    }
+
+    .sidebar-backdrop {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background: rgba(238, 230, 255, 1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 0;
+        left: -100%;
+        transition: 0.8s;
+
+        .sidebar {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 50%;
+            height: 100%;
+            background-color: inherit;
+            display: flex;
+            flex-direction: column;
+            padding: 1rem;
+
+            ul {
+                list-style: none;
+                padding: 0;
+
+                a {
+                    text-decoration: none;
+                }
+
+                a.active {
+                    color: $primary-color;
+                }
+
+                li {
+                    margin-top: 2rem;
+                    color: $dark-color;
+                    font-size: 1.4em;
+                    font-weight: 500;
+                    cursor: pointer;
+                    transition: color 0.25s ease 0s;
+                }
+
+            }
+        }
+
+
+    }
+
+    .showSidebar {
+        left: 0;
+
+    }
+}
+
+//footer styles
+footer {
+    background: $nav_bg;
+    height: fit-content;
+    width: -webkit-fill-available;
+    padding: 2rem 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    .content {
+        width: 100%;
+
+        .title {
+            font-size: 2.8rem;
+            font-weight: 600;
+            margin: 0;
+        }
+
+        .desc {
+            font-size: 1.5rem;
+            font-weight: 400;
+
+
+            a {
+                color: $primary-color;
+                text-decoration: none;
+            }
+
+        }
+
+        .socials {
+
+            ul {
+                display: flex;
+                list-style: none;
+                padding: 0;
+
+                a {
+                    text-decoration: none;
+                }
+
+                li {
+                    img {
+                        width: 3rem;
+                        margin-right: 2rem;
+
+                    }
+                }
+
+            }
+        }
+
+        .copyright {
+            font-size: 13px;
+            margin-top: 70px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+@import './modules/ipad';
+@import './modules/mobile';
