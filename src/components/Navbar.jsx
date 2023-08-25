@@ -60,7 +60,7 @@ const Navbar = () => {
                         </NavLink>
 
 
-                        <a rel="noreferrer" href="https://drive.google.com/file/d/1eZhivygqRrtV8wsJb7lRI_zkrLSY7hGt/view?usp=sharing" target='_blank'>
+                        <a rel="noreferrer" href="https://drive.google.com/file/d/1RzQOyX5xbdHVqzxC-4YT9umfw6_QqdPF/view?usp=sharing" target='_blank'>
 
                             <li>
                                 Resume
@@ -96,7 +96,7 @@ const Navbar = () => {
                     </NavLink>
 
 
-                    <a rel="noreferrer" href="https://drive.google.com/file/d/1eZhivygqRrtV8wsJb7lRI_zkrLSY7hGt/view?usp=sharing" target='_blank'>
+                    <a rel="noreferrer" href="https://drive.google.com/file/d/1RzQOyX5xbdHVqzxC-4YT9umfw6_QqdPF/view?usp=sharing" target='_blank'>
 
                         <li>
                             Resume

@@ -1,5 +1,18 @@
 export const Projects = [
     {
+        title:'Checkify',
+        url:'https://checkify.sterling.ng',
+        image:require('../assets/images/checkify.png'),
+        desc:'Staff task tracking and management system created for internal staff of the organization.',
+        categories:[
+            'Staff Management', 'Task Tracking'
+        ],
+        stacks:[
+            'ReactJs', 'Aphrodite', 'Redux'
+        ]
+    },
+
+    {
         title:'Vicomma',
         url:'https://staging.vicomma.com',
         image:require('../assets/images/vicomma.png'),
