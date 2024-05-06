@@ -7,7 +7,7 @@ const Project = ({ data, index }) => {
     return (
         <div className="project flex">
             <div className='image'>
-                <img src={image} alt={`project-${index + 1}-image`} />
+                <img src={image} alt={`project-${index + 1}`} />
 
                 <div className="categories flex">
                     {
