@@ -1,5 +1,31 @@
 export const Projects = [
     {
+        title:'Credit Report Automation',
+        url:'https://sterlingcreditreport.sterling.ng',
+        image:require('../assets/images/creditSearchImg.png'),
+        desc:'Customer loan history search platform used to make decisions relating to loan disbursements.',
+        categories:[
+            'Loan History', 'Customer search platform'
+        ],
+        stacks:[
+            'Vuejs', 'Tailwind', 'Vuex', 'DotNet'
+        ]
+    },
+
+    {
+        title:'Embedly',
+        url:'https://embedly.ng',
+        image:require('../assets/images/embedly.png'),
+        desc:'Virtual account generation system created specifically for organizations with the to generate virtual accounts for users.',
+        categories:[
+            'Virtual Accounts', 'Task Tracking'
+        ],
+        stacks:[
+            'ReactJs', 'Aphrodite', 'Redux'
+        ]
+    },
+
+    {
         title:'Checkify',
         url:'https://checkify.sterling.ng',
         image:require('../assets/images/checkify.png'),
@@ -9,6 +35,19 @@ export const Projects = [
         ],
         stacks:[
             'ReactJs', 'Aphrodite', 'Redux'
+        ]
+    },
+
+    {
+        title:'Bleanq',
+        url:'https://bleanq.com',
+        image:require('../assets/images/bleanq.png'),
+        desc:'A digital contactless business smart card and wallet built on NFC technology. Bleanq currently has over 5,000 customers from around the world.',
+        categories:[
+            'Customizable profiles', 'E-commerce'
+        ],
+        stacks:[
+            'Vuejs', 'Firebase', 'SASS'
         ]
     },
 
@@ -26,15 +65,15 @@ export const Projects = [
     },
 
     {
-        title:'Bleanq',
-        url:'https://bleanq.com',
-        image:require('../assets/images/bleanq.png'),
-        desc:'A digital contactless business smart card and wallet built on NFC technology. Bleanq currently has over 5,000 customers from around the world.',
+        title:'TipsByTobe',
+        url:'https://tipsbytobe.com.ng',
+        image:require('../assets/images/tipsbytobe.png'),
+        desc:'Personal content blog and books platform. Stories around Technology, Finance, Coding etc',
         categories:[
-            'Customizable profiles', 'E-commerce'
+            'Content/Blog', 'Books'
         ],
         stacks:[
-            'Vuejs', 'Firebase', 'SASS'
+            'ReactJs', 'PHP/Laravel', 'Jquery'
         ]
     },
 

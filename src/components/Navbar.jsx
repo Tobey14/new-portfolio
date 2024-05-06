@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import Logo from '../assets/images/logo.png';
+// import Logo from '../assets/images/logo.png';
 import Bars from '../assets/images/bars.svg';
 import Cross from '../assets/images/cross.svg';
 import { NavLink } from "react-router-dom";
@@ -60,7 +60,7 @@ const Navbar = () => {
                         </NavLink>
 
 
-                        <a rel="noreferrer" href="https://drive.google.com/file/d/1RzQOyX5xbdHVqzxC-4YT9umfw6_QqdPF/view?usp=sharing" target='_blank'>
+                        <a rel="noreferrer" href="https://drive.google.com/file/d/1h0nVxQUdPMUPzb_XFGsAnUjTjxQbO5m4/view?usp=drive_link" target='_blank'>
 
                             <li>
                                 Resume

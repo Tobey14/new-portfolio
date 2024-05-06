@@ -30,15 +30,15 @@ const About = () => {
                         developer during my compulsory National service year 2020. In this position, I worked more with Wordpress and started learning about the React Framework.
                         
                         <br /> <br />
-                        In 2021, I worked with Core3dSolutions to create numerous business management solutions like ERP systems, school portals etc. using PHP and it's Laravel framework coupled with ReactJs where necessary.
+                        In 2021, I worked with Core3dSolutions as a full-stack to create numerous business management solutions like ERP systems, school portals etc. using PHP and it's Laravel framework coupled with ReactJs where necessary.
                         <br /> <br />
-                        Late 2021, I was employed at Zkyte technologies as a frontend focussed Full Stack developer. In this role, I learnt more about Nodejs and Vuejs and started using the technology to create solutions.
-                        During the course of the year, I chose to be a full frontend developer in order to focus on an area and become great at it. This led me to 
-                        focus on the Reactjs and Vuejs frameworks coupled with state management tool like Redux and Vuex, Typescript, SASS, Jest (tests) etc. while making little input in backend development.
+                        Late 2021, I was employed at Zkyte technologies as a Full Stack developer. In this role, I learnt more about Nodejs and Vuejs and started using the technology to create solutions.
+                        During the course of the year, I chose to give a bit of preference to frontend software development as it struck me as a tougher aspect of software engineering. This led me to 
+                        improve on the Reactjs and Vuejs frameworks coupled with state management tool like Redux and Vuex, Typescript, SASS, Jest (tests) etc. while making inputs and code optimization in backend development using Python, PHP or Nodejs.
 
                         <br /> <br />
 
-                        Overtime, I have evolved to become a great frontend software developer who is always on the lookout for evolving technologies in order to stay relevant. I have built many solutions individually and in teams too.
+                        Overtime, I have evolved to become a great software developer who is always on the lookout for evolving technologies in order to stay relevant. I have built many solutions individually and collaborated with diverse teams as well.
                         <br /> <br />
                         My hobbies includes listening to and making music, chess, playing FIFA or PES, brainstorming etc.
 
