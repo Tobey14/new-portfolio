@@ -1,10 +1,9 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import linkedin from '../assets/images/linkedin.svg';
 import twitter from '../assets/images/twitter.svg';
 import instagram from '../assets/images/instagram.svg';
 import github from '../assets/images/github.svg';
 import spotify from '../assets/images/spotify.svg';
-import { NavLink } from "react-router-dom";
 
 
 const Footer = () => {

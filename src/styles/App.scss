@@ -93,6 +93,19 @@
             }
         }
     }
+
+    .notFound{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p{
+            font-size: 30px;
+            font-weight: 700;
+        }
+    }
 }
 
 //home navbar styles
