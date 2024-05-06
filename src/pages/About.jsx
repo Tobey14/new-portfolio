@@ -12,7 +12,7 @@ const About = () => {
         <div className="about">
             <div className="about-content flex">
                 <div className="image">
-                    <img src={tobe} alt="Tobechukwu's Image" />
+                    <img src={tobe} alt="Tobechukwu's-img" />
                 </div>
 
                 <div className="content">

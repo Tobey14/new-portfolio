@@ -26,31 +26,31 @@ const Footer = () => {
 
                 <div className="socials">
                     <ul>
-                        <a href="http://" target='_blank'>
+                        <a href="http://" target='_blank' rel="noreferrer" >
                             <li>
                                 <img src={linkedin} alt="linkedin" />
                             </li>
                         </a>
 
-                        <a href="http://twitter.com/tobey_onuigbo" target='_blank'>
+                        <a href="http://twitter.com/tobey_onuigbo" target='_blank' rel="noreferrer" >
                             <li>
                                 <img src={twitter} alt="twitter" />
                             </li>
                         </a>
 
-                        <a href="http://instagram.com/tobey_onuigbo" target='_blank'>
+                        <a href="http://instagram.com/tobey_onuigbo" target='_blank' rel="noreferrer" >
                             <li>
                                 <img src={instagram} alt="instagram" />
                             </li>
                         </a>
 
-                        <a href="http://github.com/tobey14" target='_blank'>
+                        <a href="http://github.com/tobey14" target='_blank' rel="noreferrer" >
                             <li>
                                 <img src={github} alt="github" />
                             </li>
                         </a>
 
-                        <a href="http://" target='_blank'>
+                        <a href="http://" target='_blank' rel="noreferrer" >
                             <li>
                                 <img src={spotify} alt="spotify" />
                             </li>
