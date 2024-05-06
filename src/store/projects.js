@@ -8,7 +8,7 @@ export const Projects = [
             'Loan History', 'Customer search platform'
         ],
         stacks:[
-            'Vuejs', 'Tailwind', 'Vuex', 'DotNet'
+            'Vuejs', 'Tailwind', 'Vuex'
         ]
     },
 
@@ -22,6 +22,19 @@ export const Projects = [
         ],
         stacks:[
             'ReactJs', 'Aphrodite', 'Redux'
+        ]
+    },
+
+    {
+        title:'Bandage',
+        url:'https://nextbasket-alpha.vercel.app/',
+        image:require('../assets/images/nextbasket.png'),
+        desc:'E-commerce platform with functional cart and favorite item functionality.',
+        categories:[
+            'E-commerce'
+        ],
+        stacks:[
+            'NextJS', 'Tailwind', 'Redux'
         ]
     },
 
@@ -125,7 +138,7 @@ export const Projects = [
             'betting', 'payments'
         ],
         stacks:[
-            'PHP/Laravel', 'Vuejs', 'HTML', 'CSS'
+            'PHP/Laravel', 'Vuejs', 'Vuex'
         ]
     },
 
@@ -138,7 +151,7 @@ export const Projects = [
             'Virtual reality', 'video-streaming', 'online-payments'
         ],
         stacks:[
-            'PHP/Laravel', 'Vuejs', 'HTML', 'CSS'
+            'PHP/Laravel', 'Vuejs', 'Vuex'
         ]
     },
 

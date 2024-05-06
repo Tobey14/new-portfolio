@@ -53,15 +53,19 @@ const Navbar = () => {
                         <NavLink to="/about" className={({ isActive, isPending }) =>
                             isPending ? "pending" : isActive ? "active" : ""
                         }>
-
                             <li>
                                 About
                             </li>
                         </NavLink>
 
 
-                        <a rel="noreferrer" href="https://drive.google.com/file/d/1h0nVxQUdPMUPzb_XFGsAnUjTjxQbO5m4/view?usp=drive_link" target='_blank'>
+                        <a rel="noreferrer" href="https://tipsbytobe.com.ng" target='_blank'>
+                            <li>
+                                Blog
+                            </li>
+                        </a>
 
+                        <a rel="noreferrer" href="https://drive.google.com/file/d/1h0nVxQUdPMUPzb_XFGsAnUjTjxQbO5m4/view?usp=drive_link" target='_blank'>
                             <li>
                                 Resume
                             </li>
@@ -94,6 +98,12 @@ const Navbar = () => {
                             About
                         </li>
                     </NavLink>
+
+                    <a rel="noreferrer" href="https://tipsbytobe.com.ng" target='_blank'>
+                        <li>
+                            Blog
+                        </li>
+                    </a>
 
 
                     <a rel="noreferrer" href="https://drive.google.com/file/d/1RzQOyX5xbdHVqzxC-4YT9umfw6_QqdPF/view?usp=sharing" target='_blank'>
