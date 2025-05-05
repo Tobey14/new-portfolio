@@ -10,7 +10,7 @@ const Home = () => {
                 <p className="title">Tobechukwu Onuigbo</p>
 
                 <p className="desc">
-                    Software developer (ReactJs, Vuejs, PHP/Laravel, Nodejs) with a focus on frontend technologies like Reactjs, Vuejs, TailwindCSS, SASS, Redux, Vuex etc.
+                    Software developer (ReactJs, Vuejs, PHP/Laravel, Nodejs) with a focus on frontend technologies like Reactjs/Nextjs, Vuejs/Nuxtjs, TailwindCSS, ReactQuery, SASS, Redux, Vuex etc.
                     I love to design elegant systems to specification and I love design thinking and processes.
                 </p>
             </div>
