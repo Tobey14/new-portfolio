@@ -65,7 +65,7 @@ const Navbar = () => {
                             </li>
                         </a>
 
-                        <a rel="noreferrer" href="https://drive.google.com/file/d/1h0nVxQUdPMUPzb_XFGsAnUjTjxQbO5m4/view?usp=drive_link" target='_blank'>
+                        <a rel="noreferrer" href="https://drive.google.com/file/d/1SfF_v4M_uTSOryrqIGtLxeLqexjWZvLh/view?usp=sharing" target='_blank'>
                             <li>
                                 Resume
                             </li>
@@ -106,7 +106,7 @@ const Navbar = () => {
                     </a>
 
 
-                    <a rel="noreferrer" href="https://drive.google.com/file/d/1h0nVxQUdPMUPzb_XFGsAnUjTjxQbO5m4/view?usp=drive_link" target='_blank'>
+                    <a rel="noreferrer" href="https://drive.google.com/file/d/1SfF_v4M_uTSOryrqIGtLxeLqexjWZvLh/view?usp=sharing" target='_blank'>
 
                         <li>
                             Resume

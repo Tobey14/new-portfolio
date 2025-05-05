@@ -1,5 +1,57 @@
 export const Projects = [
     {
+        title:'Giftlo',
+        url:'https://giftlo.ng/',
+        image:require('../assets/images/giftlo.png'),
+        desc:'Gift sharing platform where individual and corporate gifting happen automatically.',
+        categories:[
+            'Gift Sharing', 'Vendor Onboarding'
+        ],
+        stacks:[
+            'Nextjs', 'Tailwind', 'Nestjs'
+        ]
+    },
+
+    {
+        title:'Verdroof',
+        url:'https://verdroof.com/',
+        image:require('../assets/images/verdroof.png'),
+        desc:'E-commerce platform for property rentage and solar package purchases, has a cart, wishlist/favorite system.',
+        categories:[
+            'E-commerce', 'Property Onboarding', 'Robust Notification System'
+        ],
+        stacks:[
+            'NextJs', 'PHP/Laravel', 'OAuth'
+        ]
+    },
+
+    {
+        title:'Tickstores',
+        url:'https://tickstores.com.ng/',
+        image:require('../assets/images/tickstores.png'),
+        desc:'E-commerce platform for jerseys and footwears, has a cart, wishlist/favorite system.',
+        categories:[
+            'E-commerce', 'User Onboarding', 'Search Engine'
+        ],
+        stacks:[
+            'ReactJs', 'PHP/Laravel', 'Jquery'
+        ]
+    },
+
+    {
+        title:'TipsByTobe',
+        url:'https://tipsbytobe.com.ng',
+        image:require('../assets/images/tipsbytobe.png'),
+        desc:'Personal content blog and books platform. Stories around Technology, Finance, Coding etc',
+        categories:[
+            'Content/Blog', 'Books'
+        ],
+        stacks:[
+            'ReactJs', 'PHP/Laravel', 'Jquery'
+        ]
+    },
+
+    {
         title:'Credit Report Automation',
         url:'https://sterlingcreditreport.sterling.ng',
         image:require('../assets/images/creditSearchImg.png'),
@@ -74,19 +126,6 @@ export const Projects = [
         ],
         stacks:[
             'Vuejs', 'PHP/Laravel', 'Bootstrap'
-        ]
-    },
-
-    {
-        title:'TipsByTobe',
-        url:'https://tipsbytobe.com.ng',
-        image:require('../assets/images/tipsbytobe.png'),
-        desc:'Personal content blog and books platform. Stories around Technology, Finance, Coding etc',
-        categories:[
-            'Content/Blog', 'Books'
-        ],
-        stacks:[
-            'ReactJs', 'PHP/Laravel', 'Jquery'
         ]
     },
 
